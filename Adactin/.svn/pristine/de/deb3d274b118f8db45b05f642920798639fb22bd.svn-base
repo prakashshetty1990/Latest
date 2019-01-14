@@ -1,0 +1,77 @@
+ INFO | 2018-10-15 15:58:17,989 | Common.java | 99 | Startup activites...
+ INFO | 2018-10-15 15:58:17,989 | Common.java | 99 | Test Output Directory creation successful :C:/NewWebWorkspace/SWAUT2/WebContent/TestResults\2018_10_15_03_58_17_PM
+ INFO | 2018-10-15 15:58:17,989 | Common.java | 99 | Log File creation successful : LogFile.log
+ INFO | 2018-10-15 15:58:18,240 | Common.java | 99 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2018-10-15 15:58:18,552 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-15 15:58:18,583 | Common.java | 99 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2018-10-15 15:58:19,863 | Common.java | 99 | Getting value of ExecEnv from Test Configuration file : Cloud
+ INFO | 2018-10-15 15:58:19,863 | Common.java | 99 | Getting value of Host from Test Configuration file : prakashshetty1
+ INFO | 2018-10-15 15:58:19,863 | Common.java | 99 | Getting value of Port from Test Configuration file : PsXkVipzUbHwdBYky8ee
+ INFO | 2018-10-15 15:58:19,863 | Common.java | 99 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2018-10-15 15:58:19,863 | Common.java | 99 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2018-10-15 15:58:19,879 | Common.java | 99 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2018-10-15 15:58:19,879 | Common.java | 99 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2018-10-15 15:58:19,879 | Common.java | 99 | Element time out set
+ INFO | 2018-10-15 15:58:19,879 | Common.java | 99 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2018-10-15 15:58:19,879 | Common.java | 99 | Test Case Name: TC_001
+ INFO | 2018-10-15 15:58:19,894 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-15 15:58:19,926 | Common.java | 99 | Test Data Set Name: TC_001
+ INFO | 2018-10-15 15:58:19,926 | Common.java | 99 | Execution Flag: Execute
+ INFO | 2018-10-15 15:58:19,926 | Common.java | 99 | Test Data Set Name: TC_001_01
+ INFO | 2018-10-15 15:58:19,926 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-15 15:58:19,941 | Common.java | 99 | Test Data Set Name: TC_001_02
+ INFO | 2018-10-15 15:58:19,941 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-15 15:58:19,941 | Common.java | 99 | Test Data Set Name: 
+ INFO | 2018-10-15 15:58:19,941 | Common.java | 99 | Execution Flag: 
+ INFO | 2018-10-15 15:58:19,941 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-15 15:59:05,478 | Common.java | 99 | Getting value of url from Test Configuration file : http://adactin.com/HotelApp/
+ INFO | 2018-10-15 15:59:10,135 | Common.java | 99 | Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-15 15:59:10,135 | Common.java | 115 | Report step generation success : Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-15 15:59:12,308 | Common.java | 99 | Entered value - Reset123 in the text field- 
+ INFO | 2018-10-15 15:59:12,308 | Common.java | 115 | Report step generation success : Entered value - Reset123 in the text field- 
+ INFO | 2018-10-15 15:59:12,308 | Common.java | 99 | Entered Password ->prakashshetty
+ INFO | 2018-10-15 15:59:12,308 | Common.java | 115 | Report step generation success : Entered Password ->prakashshetty
+ INFO | 2018-10-15 15:59:14,865 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-15 15:59:21,299 | Common.java | 99 | Clicked on WebElement-Login
+ INFO | 2018-10-15 15:59:21,299 | Common.java | 115 | Report step generation success : Clicked on WebElement-Login
+ INFO | 2018-10-15 15:59:22,680 | Common.java | 99 | Successfully logged in to the application
+ INFO | 2018-10-15 15:59:22,680 | Common.java | 115 | Report step generation success : Successfully logged in to the application
+ INFO | 2018-10-15 15:59:24,509 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-15 15:59:30,773 | Common.java | 99 | Clicked on WebElement-Logout Link
+ INFO | 2018-10-15 15:59:30,773 | Common.java | 115 | Report step generation success : Clicked on WebElement-Logout Link
+ INFO | 2018-10-15 15:59:35,566 | Common.java | 99 | Clicked on WebElement-Login Again Link
+ INFO | 2018-10-15 15:59:35,566 | Common.java | 115 | Report step generation success : Clicked on WebElement-Login Again Link
+ INFO | 2018-10-15 15:59:38,145 | Common.java | 99 | Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-15 15:59:38,145 | Common.java | 115 | Report step generation success : Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-15 15:59:40,269 | Common.java | 99 | Entered value - wrongPassword1 in the text field- 
+ INFO | 2018-10-15 15:59:40,269 | Common.java | 115 | Report step generation success : Entered value - wrongPassword1 in the text field- 
+ INFO | 2018-10-15 15:59:40,269 | Common.java | 99 | Entered Password ->prakashshetty
+ INFO | 2018-10-15 15:59:40,269 | Common.java | 115 | Report step generation success : Entered Password ->prakashshetty
+ INFO | 2018-10-15 15:59:42,609 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-15 15:59:47,922 | Common.java | 99 | Clicked on WebElement-Login
+ INFO | 2018-10-15 15:59:47,922 | Common.java | 115 | Report step generation success : Clicked on WebElement-Login
+ERROR | 2018-10-15 15:59:56,547 | Common.java | 107 | Unable to login to application, Check Username and password
+ERROR | 2018-10-15 15:59:56,547 | Common.java | 107 | Report step generation success : Unable to login to application, Check Username and password
+ INFO | 2018-10-15 16:00:04,056 | Common.java | 99 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2018-10-15 16:00:04,056 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-15 16:00:04,056 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-15 16:00:04,056 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-15 16:00:04,056 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of ExecEnv from Test Configuration file : Cloud
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of Host from Test Configuration file : prakashshetty1
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of Port from Test Configuration file : PsXkVipzUbHwdBYky8ee
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Element time out set
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | ##### Start of Test Case : Search a hotel #####
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Test Case Name: TC_002
+ INFO | 2018-10-15 16:00:16,205 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-15 16:00:16,283 | Common.java | 99 | Test Data Set Name: TC_002
+ INFO | 2018-10-15 16:00:16,283 | Common.java | 99 | Execution Flag: Execute
+ INFO | 2018-10-15 16:00:16,283 | Common.java | 99 | Test Data Set Name: TC_002_01
+ INFO | 2018-10-15 16:00:16,283 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-15 16:00:16,283 | Common.java | 99 | Test Data Set Name: 
+ INFO | 2018-10-15 16:00:16,283 | Common.java | 99 | Execution Flag: 
+ INFO | 2018-10-15 16:00:16,283 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome

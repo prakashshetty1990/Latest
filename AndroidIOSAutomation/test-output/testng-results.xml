@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-12-13T15:46:02Z" name="Suite" finished-at="2018-12-13T15:53:43Z" duration-ms="461222">
+    <groups>
+    </groups>
+    <test started-at="2018-12-13T15:46:02Z" name="Test" finished-at="2018-12-13T15:53:43Z" duration-ms="461222">
+      <class name="TestCases.TestCases">
+        <test-method signature="TC_001()[pri:0, instance:TestCases.TestCases@dc683b]" started-at="2018-12-13T21:16:02Z" name="TC_001" finished-at="2018-12-13T21:17:37Z" duration-ms="94916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method signature="TC_002()[pri:0, instance:TestCases.TestCases@dc683b]" started-at="2018-12-13T21:17:37Z" name="TC_002" finished-at="2018-12-13T21:18:33Z" duration-ms="55601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method signature="TC_003()[pri:0, instance:TestCases.TestCases@dc683b]" started-at="2018-12-13T21:18:33Z" name="TC_003" finished-at="2018-12-13T21:20:49Z" duration-ms="136174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method signature="TC_004()[pri:0, instance:TestCases.TestCases@dc683b]" started-at="2018-12-13T21:20:49Z" name="TC_004" finished-at="2018-12-13T21:23:43Z" duration-ms="174516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+      </class> <!-- TestCases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

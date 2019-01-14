@@ -1,0 +1,239 @@
+ INFO | 2018-12-05 15:32:51,217 | Common.java | 99 | Startup activites...
+ INFO | 2018-12-05 15:32:51,227 | Common.java | 99 | Test Output Directory creation successful :C:/apache-tomcat-8.5.32/wtpwebapps/SWAUT3/AutomationResults/Mobile/Adactin/TestResults\2018_12_05_03_32_51_PM
+ INFO | 2018-12-05 15:32:51,227 | Common.java | 99 | Log File creation successful : LogFile.log
+ INFO | 2018-12-05 15:32:51,672 | Common.java | 99 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2018-12-05 15:32:51,778 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-12-05 15:32:52,657 | Common.java | 99 | Getting value of ExecutionHost from Test Configuration file : DeskTop
+ INFO | 2018-12-05 15:32:52,658 | Common.java | 99 | Getting value of IPAddressOrCloudUserName from Test Configuration file : 192.168.94.75
+ INFO | 2018-12-05 15:32:52,658 | Common.java | 99 | Getting value of PortOrCloudKey from Test Configuration file : 4723
+ INFO | 2018-12-05 15:32:52,675 | Common.java | 99 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2018-12-05 15:32:52,676 | Common.java | 99 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2018-12-05 15:32:52,677 | Common.java | 99 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2018-12-05 15:32:52,678 | Common.java | 99 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2018-12-05 15:32:52,680 | Common.java | 99 | Element time out set
+ INFO | 2018-12-05 15:32:52,680 | Common.java | 99 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2018-12-05 15:32:52,681 | Common.java | 99 | Test Case Name: TC_001
+ INFO | 2018-12-05 15:32:52,681 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-12-05 15:32:52,726 | Common.java | 99 | Test Data Set Name: TC_001
+ INFO | 2018-12-05 15:32:52,726 | Common.java | 99 | Execution Flag: Execute
+ INFO | 2018-12-05 15:32:52,727 | Common.java | 99 | Test Data Set Name: TC_001_01
+ INFO | 2018-12-05 15:32:52,727 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-12-05 15:32:52,727 | Common.java | 99 | Test Data Set Name: TC_001_02
+ INFO | 2018-12-05 15:32:52,727 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-12-05 15:32:52,728 | Common.java | 99 | Test Data Set Name: 
+ INFO | 2018-12-05 15:32:52,735 | Common.java | 99 | Execution Flag: 
+ INFO | 2018-12-05 15:32:52,742 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:32:52,771 | Common.java | 99 | Getting value of PlatFormName from Test Configuration file : Android
+ INFO | 2018-12-05 15:32:52,772 | Common.java | 99 | Getting value of DeviceName from Test Configuration file : LGH9907d4a09a1
+ INFO | 2018-12-05 15:32:52,772 | Common.java | 99 | Getting value of PlatformVersion from Test Configuration file : 7.0.1
+ INFO | 2018-12-05 15:32:52,773 | Common.java | 99 | Opening Chrome Application...
+ INFO | 2018-12-05 15:33:15,079 | Common.java | 99 | Getting value of URL from Test Configuration file : http://adactin.com/HotelApp/
+ INFO | 2018-12-05 15:33:17,993 | Common.java | 99 | Getting value of URL from Test Configuration file : http://adactin.com/HotelApp/
+ INFO | 2018-12-05 15:33:18,574 | Common.java | 99 | Getting value of txtUsername from AdactinHeader properties file : xpath>>//input[@name='username']
+ INFO | 2018-12-05 15:33:18,575 | Common.java | 99 | Getting value of txtPassword from AdactinHeader properties file : xpath>>//input[@name='password']
+ INFO | 2018-12-05 15:33:18,575 | Common.java | 99 | Getting value of btnLogin from AdactinHeader properties file : xpath>>//input[@id='login' and @value='Login']
+ INFO | 2018-12-05 15:33:18,575 | Common.java | 99 | Getting value of lstLocation from AdactinHeader properties file : xpath>>//select[@id='location']
+ INFO | 2018-12-05 15:33:20,009 | Common.java | 99 | Entered value - prakasha in the text field- Username
+ INFO | 2018-12-05 15:33:20,011 | Common.java | 115 | Report step generation success : Entered value - prakasha in the text field- Username
+ INFO | 2018-12-05 15:33:20,945 | Common.java | 99 | Entered value - Reset123 in the text field- Password
+ INFO | 2018-12-05 15:33:20,945 | Common.java | 115 | Report step generation success : Entered value - Reset123 in the text field- Password
+ERROR | 2018-12-05 15:33:20,949 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:33:20,949 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:33:41,202 | Common.java | 99 | Clicked on MobileElement-Loggedin
+ INFO | 2018-12-05 15:33:41,202 | Common.java | 115 | Report step generation success : Clicked on MobileElement-Loggedin
+ INFO | 2018-12-05 15:33:41,618 | Common.java | 99 | Logged in successfully
+ INFO | 2018-12-05 15:33:41,618 | Common.java | 115 | Report step generation success : Logged in successfully
+ERROR | 2018-12-05 15:33:41,619 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:33:41,619 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:33:41,721 | Common.java | 99 | Getting value of btnLogout from AdactinHomePage properties file : xpath>>//a[contains(text(),'Logout')]
+ INFO | 2018-12-05 15:33:41,722 | Common.java | 99 | Getting value of txtLoginAgain from AdactinHomePage properties file : xpath>>//a[text()='Click here to login again']
+ INFO | 2018-12-05 15:33:41,722 | Common.java | 99 | Getting value of btnSearch from AdactinHomePage properties file : xpath>>//input[@name='Submit']
+ INFO | 2018-12-05 15:33:41,722 | Common.java | 99 | Getting value of txtSelectHotel from AdactinHomePage properties file : xpath>>//td[text()='Select Hotel ']
+ INFO | 2018-12-05 15:33:41,723 | Common.java | 99 | Getting value of rdbSelectHotel from AdactinHomePage properties file : xpath>>//input[@id='radiobutton_3']
+ INFO | 2018-12-05 15:33:41,723 | Common.java | 99 | Getting value of btnContinue from AdactinHomePage properties file : xpath>>//input[@id='continue']
+ INFO | 2018-12-05 15:33:41,723 | Common.java | 99 | Getting value of txtHotelname from AdactinHomePage properties file : xpath>>//input[@id='hotel_name_3' and @value='Hotel Hervey']
+ INFO | 2018-12-05 15:33:41,723 | Common.java | 99 | Getting value of txtFirstName from AdactinHomePage properties file : xpath>>//input[@id='first_name']
+ INFO | 2018-12-05 15:33:41,723 | Common.java | 99 | Getting value of txtLastName from AdactinHomePage properties file : xpath>>//input[@id='last_name']
+ INFO | 2018-12-05 15:33:41,724 | Common.java | 99 | Getting value of txtAddress from AdactinHomePage properties file : xpath>>//textarea[@id='address']
+ INFO | 2018-12-05 15:33:41,724 | Common.java | 99 | Getting value of txtCreditcardnumber from AdactinHomePage properties file : xpath>>//input[@id='cc_num']
+ INFO | 2018-12-05 15:33:41,724 | Common.java | 99 | Getting value of txtccvNumber from AdactinHomePage properties file : xpath>>//input[@id='cc_cvv']
+ INFO | 2018-12-05 15:33:41,724 | Common.java | 99 | Getting value of btnBooknow from AdactinHomePage properties file : xpath>>//input[@id='book_now']
+ INFO | 2018-12-05 15:33:41,725 | Common.java | 99 | Getting value of txtBookinconfirm from AdactinHomePage properties file : xpath>>//td[text()='Booking Confirmation ']
+ INFO | 2018-12-05 15:33:41,725 | Common.java | 99 | Getting value of dropDownlocation from AdactinHomePage properties file : xpath>>//select[@name='location']
+ INFO | 2018-12-05 15:33:41,725 | Common.java | 99 | Getting value of dropDownroom_nos from AdactinHomePage properties file : xpath>>//select[@name='room_nos']
+ INFO | 2018-12-05 15:33:41,726 | Common.java | 99 | Getting value of dropDownadult_room from AdactinHomePage properties file : xpath>>//select[@id='adult_room']
+ INFO | 2018-12-05 15:33:41,726 | Common.java | 99 | Getting value of dropDowncardType from AdactinHomePage properties file : xpath>>//select[@id='cc_type']
+ INFO | 2018-12-05 15:33:41,726 | Common.java | 99 | Getting value of dropDownexpMonth from AdactinHomePage properties file : xpath>>//select[@id='cc_exp_month']
+ INFO | 2018-12-05 15:33:41,732 | Common.java | 99 | Getting value of dropDownexpYear from AdactinHomePage properties file : xpath>>//select[@id='cc_exp_year']
+ERROR | 2018-12-05 15:33:41,794 | Common.java | 107 | Uanble to locate element-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SUNTECHSERVER', ip: '192.168.80.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: LGH9907d4a09a1, noReset: true, platformName: android, platformVersion: 7.0.1, udid: LGH9907d4a09a1}, deviceManufacturer: LGE, deviceModel: LG-H990, deviceName: LGH9907d4a09a1, deviceScreenSize: 1440x2720, deviceUDID: LGH9907d4a09a1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, udid: LGH9907d4a09a1, warnings: {}, webStorageEnabled: false}
+Session ID: 7e8e29a3-738a-4ff4-a373-f27d07d5555f
+*** Element info: {Using=xpath, value=//input[@name='username']}
+ERROR | 2018-12-05 15:33:41,795 | Common.java | 107 | Report step generation success : Uanble to locate element-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SUNTECHSERVER', ip: '192.168.80.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: LGH9907d4a09a1, noReset: true, platformName: android, platformVersion: 7.0.1, udid: LGH9907d4a09a1}, deviceManufacturer: LGE, deviceModel: LG-H990, deviceName: LGH9907d4a09a1, deviceScreenSize: 1440x2720, deviceUDID: LGH9907d4a09a1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, udid: LGH9907d4a09a1, warnings: {}, webStorageEnabled: false}
+Session ID: 7e8e29a3-738a-4ff4-a373-f27d07d5555f
+*** Element info: {Using=xpath, value=//input[@name='username']}
+ERROR | 2018-12-05 15:33:41,795 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:33:41,798 | Common.java | 99 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2018-12-05 15:33:41,798 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:33:41,799 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:33:41,799 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:33:41,800 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ERROR | 2018-12-05 15:33:41,926 | Common.java | 107 | Uanble to locate element-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SUNTECHSERVER', ip: '192.168.80.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: LGH9907d4a09a1, noReset: true, platformName: android, platformVersion: 7.0.1, udid: LGH9907d4a09a1}, deviceManufacturer: LGE, deviceModel: LG-H990, deviceName: LGH9907d4a09a1, deviceScreenSize: 1440x2720, deviceUDID: LGH9907d4a09a1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, udid: LGH9907d4a09a1, warnings: {}, webStorageEnabled: false}
+Session ID: 7e8e29a3-738a-4ff4-a373-f27d07d5555f
+*** Element info: {Using=xpath, value=//input[@name='username']}
+ERROR | 2018-12-05 15:33:41,926 | Common.java | 107 | Report step generation success : Uanble to locate element-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=70.0.3538.80)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SUNTECHSERVER', ip: '192.168.80.86', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: LGH9907d4a09a1, noReset: true, platformName: android, platformVersion: 7.0.1, udid: LGH9907d4a09a1}, deviceManufacturer: LGE, deviceModel: LG-H990, deviceName: LGH9907d4a09a1, deviceScreenSize: 1440x2720, deviceUDID: LGH9907d4a09a1, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, platform: LINUX, platformName: Android, platformVersion: 7.0, takesScreenshot: true, udid: LGH9907d4a09a1, warnings: {}, webStorageEnabled: false}
+Session ID: 7e8e29a3-738a-4ff4-a373-f27d07d5555f
+*** Element info: {Using=xpath, value=//input[@name='username']}
+ERROR | 2018-12-05 15:33:41,927 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:33:41,927 | Common.java | 99 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2018-12-05 15:33:41,927 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:33:41,928 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:33:41,928 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:33:41,928 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:33:42,041 | Common.java | 99 | Getting value of btnLogout from AdactinHomePage properties file : xpath>>//a[contains(text(),'Logout')]
+ INFO | 2018-12-05 15:33:42,042 | Common.java | 99 | Getting value of txtLoginAgain from AdactinHomePage properties file : xpath>>//a[text()='Click here to login again']
+ INFO | 2018-12-05 15:33:42,042 | Common.java | 99 | Getting value of btnSearch from AdactinHomePage properties file : xpath>>//input[@name='Submit']
+ INFO | 2018-12-05 15:33:42,042 | Common.java | 99 | Getting value of txtSelectHotel from AdactinHomePage properties file : xpath>>//td[text()='Select Hotel ']
+ INFO | 2018-12-05 15:33:42,043 | Common.java | 99 | Getting value of rdbSelectHotel from AdactinHomePage properties file : xpath>>//input[@id='radiobutton_3']
+ INFO | 2018-12-05 15:33:42,043 | Common.java | 99 | Getting value of btnContinue from AdactinHomePage properties file : xpath>>//input[@id='continue']
+ INFO | 2018-12-05 15:33:42,043 | Common.java | 99 | Getting value of txtHotelname from AdactinHomePage properties file : xpath>>//input[@id='hotel_name_3' and @value='Hotel Hervey']
+ INFO | 2018-12-05 15:33:42,043 | Common.java | 99 | Getting value of txtFirstName from AdactinHomePage properties file : xpath>>//input[@id='first_name']
+ INFO | 2018-12-05 15:33:42,044 | Common.java | 99 | Getting value of txtLastName from AdactinHomePage properties file : xpath>>//input[@id='last_name']
+ INFO | 2018-12-05 15:33:42,045 | Common.java | 99 | Getting value of txtAddress from AdactinHomePage properties file : xpath>>//textarea[@id='address']
+ INFO | 2018-12-05 15:33:42,045 | Common.java | 99 | Getting value of txtCreditcardnumber from AdactinHomePage properties file : xpath>>//input[@id='cc_num']
+ INFO | 2018-12-05 15:33:42,046 | Common.java | 99 | Getting value of txtccvNumber from AdactinHomePage properties file : xpath>>//input[@id='cc_cvv']
+ INFO | 2018-12-05 15:33:42,046 | Common.java | 99 | Getting value of btnBooknow from AdactinHomePage properties file : xpath>>//input[@id='book_now']
+ INFO | 2018-12-05 15:33:42,047 | Common.java | 99 | Getting value of txtBookinconfirm from AdactinHomePage properties file : xpath>>//td[text()='Booking Confirmation ']
+ INFO | 2018-12-05 15:33:42,047 | Common.java | 99 | Getting value of dropDownlocation from AdactinHomePage properties file : xpath>>//select[@name='location']
+ INFO | 2018-12-05 15:33:42,047 | Common.java | 99 | Getting value of dropDownroom_nos from AdactinHomePage properties file : xpath>>//select[@name='room_nos']
+ INFO | 2018-12-05 15:33:42,047 | Common.java | 99 | Getting value of dropDownadult_room from AdactinHomePage properties file : xpath>>//select[@id='adult_room']
+ INFO | 2018-12-05 15:33:42,047 | Common.java | 99 | Getting value of dropDowncardType from AdactinHomePage properties file : xpath>>//select[@id='cc_type']
+ INFO | 2018-12-05 15:33:42,048 | Common.java | 99 | Getting value of dropDownexpMonth from AdactinHomePage properties file : xpath>>//select[@id='cc_exp_month']
+ INFO | 2018-12-05 15:33:42,048 | Common.java | 99 | Getting value of dropDownexpYear from AdactinHomePage properties file : xpath>>//select[@id='cc_exp_year']
+ INFO | 2018-12-05 15:33:44,302 | Common.java | 99 | Getting value of ExecutionHost from Test Configuration file : DeskTop
+ INFO | 2018-12-05 15:33:44,302 | Common.java | 99 | Getting value of IPAddressOrCloudUserName from Test Configuration file : 192.168.94.75
+ INFO | 2018-12-05 15:33:44,303 | Common.java | 99 | Getting value of PortOrCloudKey from Test Configuration file : 4723
+ INFO | 2018-12-05 15:33:44,304 | Common.java | 99 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2018-12-05 15:33:44,304 | Common.java | 99 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2018-12-05 15:33:44,305 | Common.java | 99 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2018-12-05 15:33:44,305 | Common.java | 99 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2018-12-05 15:33:44,306 | Common.java | 99 | Element time out set
+ INFO | 2018-12-05 15:33:44,306 | Common.java | 99 | ##### Start of Test Case : Search For Hotel #####
+ INFO | 2018-12-05 15:33:44,306 | Common.java | 99 | Test Case Name: TC_002
+ INFO | 2018-12-05 15:33:44,306 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-12-05 15:33:44,373 | Common.java | 99 | Test Data Set Name: TC_002
+ INFO | 2018-12-05 15:33:44,374 | Common.java | 99 | Execution Flag: Execute
+ INFO | 2018-12-05 15:33:44,374 | Common.java | 99 | Test Data Set Name: TC_002_01
+ INFO | 2018-12-05 15:33:44,378 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-12-05 15:33:44,378 | Common.java | 99 | Test Data Set Name: 
+ INFO | 2018-12-05 15:33:44,378 | Common.java | 99 | Execution Flag: 
+ INFO | 2018-12-05 15:33:44,379 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:33:44,380 | Common.java | 99 | Getting value of PlatFormName from Test Configuration file : Android
+ INFO | 2018-12-05 15:33:44,380 | Common.java | 99 | Getting value of DeviceName from Test Configuration file : LGH9907d4a09a1
+ INFO | 2018-12-05 15:33:44,382 | Common.java | 99 | Getting value of PlatformVersion from Test Configuration file : 7.0.1
+ INFO | 2018-12-05 15:33:44,383 | Common.java | 99 | Opening Chrome Application...
+ INFO | 2018-12-05 15:34:04,287 | Common.java | 99 | Getting value of URL from Test Configuration file : http://adactin.com/HotelApp/
+ INFO | 2018-12-05 15:34:06,195 | Common.java | 99 | Getting value of URL from Test Configuration file : http://adactin.com/HotelApp/
+ INFO | 2018-12-05 15:34:06,714 | Common.java | 99 | Getting value of txtUsername from AdactinHeader properties file : xpath>>//input[@name='username']
+ INFO | 2018-12-05 15:34:06,715 | Common.java | 99 | Getting value of txtPassword from AdactinHeader properties file : xpath>>//input[@name='password']
+ INFO | 2018-12-05 15:34:06,715 | Common.java | 99 | Getting value of btnLogin from AdactinHeader properties file : xpath>>//input[@id='login' and @value='Login']
+ INFO | 2018-12-05 15:34:06,716 | Common.java | 99 | Getting value of lstLocation from AdactinHeader properties file : xpath>>//select[@id='location']
+ INFO | 2018-12-05 15:34:07,950 | Common.java | 99 | Entered value - prakasha in the text field- Username
+ INFO | 2018-12-05 15:34:07,950 | Common.java | 115 | Report step generation success : Entered value - prakasha in the text field- Username
+ INFO | 2018-12-05 15:34:08,815 | Common.java | 99 | Entered value - Reset123 in the text field- Password
+ INFO | 2018-12-05 15:34:08,816 | Common.java | 115 | Report step generation success : Entered value - Reset123 in the text field- Password
+ERROR | 2018-12-05 15:34:08,816 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:34:08,817 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:34:31,410 | Common.java | 99 | Clicked on MobileElement-Loggedin
+ INFO | 2018-12-05 15:34:31,410 | Common.java | 115 | Report step generation success : Clicked on MobileElement-Loggedin
+ INFO | 2018-12-05 15:34:31,927 | Common.java | 99 | Logged in successfully
+ INFO | 2018-12-05 15:34:31,927 | Common.java | 115 | Report step generation success : Logged in successfully
+ERROR | 2018-12-05 15:34:31,927 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:34:31,942 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:34:32,083 | Common.java | 99 | Getting value of btnLogout from AdactinHomePage properties file : xpath>>//a[contains(text(),'Logout')]
+ INFO | 2018-12-05 15:34:32,083 | Common.java | 99 | Getting value of txtLoginAgain from AdactinHomePage properties file : xpath>>//a[text()='Click here to login again']
+ INFO | 2018-12-05 15:34:32,083 | Common.java | 99 | Getting value of btnSearch from AdactinHomePage properties file : xpath>>//input[@name='Submit']
+ INFO | 2018-12-05 15:34:32,083 | Common.java | 99 | Getting value of txtSelectHotel from AdactinHomePage properties file : xpath>>//td[text()='Select Hotel ']
+ INFO | 2018-12-05 15:34:32,083 | Common.java | 99 | Getting value of rdbSelectHotel from AdactinHomePage properties file : xpath>>//input[@id='radiobutton_3']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of btnContinue from AdactinHomePage properties file : xpath>>//input[@id='continue']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of txtHotelname from AdactinHomePage properties file : xpath>>//input[@id='hotel_name_3' and @value='Hotel Hervey']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of txtFirstName from AdactinHomePage properties file : xpath>>//input[@id='first_name']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of txtLastName from AdactinHomePage properties file : xpath>>//input[@id='last_name']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of txtAddress from AdactinHomePage properties file : xpath>>//textarea[@id='address']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of txtCreditcardnumber from AdactinHomePage properties file : xpath>>//input[@id='cc_num']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of txtccvNumber from AdactinHomePage properties file : xpath>>//input[@id='cc_cvv']
+ INFO | 2018-12-05 15:34:32,098 | Common.java | 99 | Getting value of btnBooknow from AdactinHomePage properties file : xpath>>//input[@id='book_now']
+ INFO | 2018-12-05 15:34:32,114 | Common.java | 99 | Getting value of txtBookinconfirm from AdactinHomePage properties file : xpath>>//td[text()='Booking Confirmation ']
+ INFO | 2018-12-05 15:34:32,114 | Common.java | 99 | Getting value of dropDownlocation from AdactinHomePage properties file : xpath>>//select[@name='location']
+ INFO | 2018-12-05 15:34:32,114 | Common.java | 99 | Getting value of dropDownroom_nos from AdactinHomePage properties file : xpath>>//select[@name='room_nos']
+ INFO | 2018-12-05 15:34:32,114 | Common.java | 99 | Getting value of dropDownadult_room from AdactinHomePage properties file : xpath>>//select[@id='adult_room']
+ INFO | 2018-12-05 15:34:32,114 | Common.java | 99 | Getting value of dropDowncardType from AdactinHomePage properties file : xpath>>//select[@id='cc_type']
+ INFO | 2018-12-05 15:34:32,114 | Common.java | 99 | Getting value of dropDownexpMonth from AdactinHomePage properties file : xpath>>//select[@id='cc_exp_month']
+ INFO | 2018-12-05 15:34:32,114 | Common.java | 99 | Getting value of dropDownexpYear from AdactinHomePage properties file : xpath>>//select[@id='cc_exp_year']
+ INFO | 2018-12-05 15:34:32,895 | Common.java | 99 | Selected 1option from dropdown->location
+ INFO | 2018-12-05 15:34:32,895 | Common.java | 115 | Report step generation success : Selected 1option from dropdown->location
+ INFO | 2018-12-05 15:34:33,835 | Common.java | 99 | Selected 2option from dropdown->room_nos
+ INFO | 2018-12-05 15:34:33,835 | Common.java | 115 | Report step generation success : Selected 2option from dropdown->room_nos
+ INFO | 2018-12-05 15:34:34,585 | Common.java | 99 | Selected 2option from dropdown->adult_room
+ INFO | 2018-12-05 15:34:34,585 | Common.java | 115 | Report step generation success : Selected 2option from dropdown->adult_room
+ERROR | 2018-12-05 15:34:34,600 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:34:34,600 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ERROR | 2018-12-05 15:34:36,178 | Common.java | 107 | Unable to click on Element-Search button
+ERROR | 2018-12-05 15:34:36,178 | Common.java | 107 | Report step generation success : Unable to click on Element-Search button
+ERROR | 2018-12-05 15:34:36,178 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:34:36,178 | Common.java | 99 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2018-12-05 15:34:36,178 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:34:36,178 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:34:36,178 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:34:36,178 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ERROR | 2018-12-05 15:34:37,537 | Common.java | 107 | Unable to click on Element-logout
+ERROR | 2018-12-05 15:34:37,537 | Common.java | 107 | Report step generation success : Unable to click on Element-logout
+ERROR | 2018-12-05 15:34:37,537 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:34:37,537 | Common.java | 99 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2018-12-05 15:34:37,537 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:34:37,537 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:34:37,537 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-12-05 15:34:37,537 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ERROR | 2018-12-05 15:34:37,537 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:34:37,537 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:34:38,038 | Common.java | 99 | Logged out Successfully
+ INFO | 2018-12-05 15:34:38,038 | Common.java | 99 | Report step generation success : Logged out Successfully
+ERROR | 2018-12-05 15:34:38,038 | Common.java | 107 | Report step generation success : java.lang.NullPointerException
+ INFO | 2018-12-05 15:34:38,038 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-12-05 15:34:38,038 | Common.java | 99 | Getting value of txtUsername from AdactinHeader properties file : xpath>>//input[@name='username']
+ INFO | 2018-12-05 15:34:38,038 | Common.java | 99 | Getting value of txtPassword from AdactinHeader properties file : xpath>>//input[@name='password']
+ INFO | 2018-12-05 15:34:38,038 | Common.java | 99 | Getting value of btnLogin from AdactinHeader properties file : xpath>>//input[@id='login' and @value='Login']
+ INFO | 2018-12-05 15:34:38,038 | Common.java | 99 | Getting value of lstLocation from AdactinHeader properties file : xpath>>//select[@id='location']
+ INFO | 2018-12-05 15:34:39,999 | Common.java | 99 | Getting value of SendMail from Test Configuration file : No
+ INFO | 2018-12-05 15:34:39,999 | Common.java | 99 | Getting value of SendMail from Test Configuration file : No
+ INFO | 2018-12-05 15:34:39,999 | Common.java | 99 | Getting value of SendMsg(Yes/No) from Test Configuration file : No
+ INFO | 2018-12-05 15:34:39,999 | Common.java | 99 | ###################################
+ INFO | 2018-12-05 15:34:39,999 | Common.java | 99 | Script Execution Complete
+ INFO | 2018-12-05 15:34:39,999 | Common.java | 99 | ####################################

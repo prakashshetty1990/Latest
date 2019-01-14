@@ -1,0 +1,8 @@
+PageMethods\AdactinHomePage.class
+TestCases\TestCases.class
+PageMethods\SelectHotel.class
+PageMethods\ForgetPassword.class
+PageMethods\ConfirmationPage.class
+PageMethods\NewUserRegistration.class
+PageMethods\AdactinApplication.class
+PageMethods\SearchHotel.class

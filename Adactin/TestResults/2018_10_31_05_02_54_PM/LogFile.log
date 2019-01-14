@@ -1,0 +1,120 @@
+ INFO | 2018-10-31 17:02:55,531 | Common.java | 99 | Startup activites...
+ INFO | 2018-10-31 17:02:55,537 | Common.java | 99 | Test Output Directory creation successful :C:\DemoWorkspace\Adactin\TestResults\2018_10_31_05_02_54_PM
+ INFO | 2018-10-31 17:02:55,539 | Common.java | 99 | Log File creation successful : LogFile.log
+ INFO | 2018-10-31 17:02:56,601 | Common.java | 99 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2018-10-31 17:02:57,290 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-31 17:02:57,451 | Common.java | 99 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2018-10-31 17:02:59,574 | Common.java | 99 | Getting value of ExecEnv from Test Configuration file : Server
+ INFO | 2018-10-31 17:02:59,575 | Common.java | 99 | Getting value of Host from Test Configuration file : 192.168.94.75
+ INFO | 2018-10-31 17:02:59,576 | Common.java | 99 | Getting value of Port from Test Configuration file : 5555
+ INFO | 2018-10-31 17:02:59,576 | Common.java | 99 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2018-10-31 17:02:59,578 | Common.java | 99 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2018-10-31 17:02:59,578 | Common.java | 99 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2018-10-31 17:02:59,579 | Common.java | 99 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2018-10-31 17:02:59,580 | Common.java | 99 | Element time out set
+ INFO | 2018-10-31 17:02:59,580 | Common.java | 99 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2018-10-31 17:02:59,580 | Common.java | 99 | Test Case Name: TC_001
+ INFO | 2018-10-31 17:02:59,582 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-31 17:02:59,721 | Common.java | 99 | Test Data Set Name: TC_001
+ INFO | 2018-10-31 17:02:59,721 | Common.java | 99 | Execution Flag: Execute
+ INFO | 2018-10-31 17:02:59,722 | Common.java | 99 | Test Data Set Name: TC_001_01
+ INFO | 2018-10-31 17:02:59,723 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-31 17:02:59,723 | Common.java | 99 | Test Data Set Name: TC_001_02
+ INFO | 2018-10-31 17:02:59,723 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-31 17:02:59,724 | Common.java | 99 | Test Data Set Name: 
+ INFO | 2018-10-31 17:02:59,724 | Common.java | 99 | Execution Flag: 
+ INFO | 2018-10-31 17:02:59,811 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-31 17:02:59,889 | Common.java | 99 | Getting value of chromedriver from Test Configuration file : drivers/chromedriver.exe
+ INFO | 2018-10-31 17:03:09,795 | Common.java | 99 | Getting value of url from Test Configuration file : http://adactin.com/HotelApp/
+ INFO | 2018-10-31 17:03:13,589 | Common.java | 99 | Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-31 17:03:13,589 | Common.java | 115 | Report step generation success : Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-31 17:03:14,006 | Common.java | 99 | Entered value - Reset1234 in the text field- 
+ INFO | 2018-10-31 17:03:14,007 | Common.java | 115 | Report step generation success : Entered value - Reset1234 in the text field- 
+ INFO | 2018-10-31 17:03:14,007 | Common.java | 99 | Entered Password ->prakashshetty
+ INFO | 2018-10-31 17:03:14,007 | Common.java | 115 | Report step generation success : Entered Password ->prakashshetty
+ INFO | 2018-10-31 17:03:14,790 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-31 17:03:17,793 | Common.java | 99 | Clicked on WebElement-Login
+ INFO | 2018-10-31 17:03:17,794 | Common.java | 115 | Report step generation success : Clicked on WebElement-Login
+ERROR | 2018-10-31 17:03:57,992 | Common.java | 107 | Unable to login to application, Check Username and password
+ERROR | 2018-10-31 17:03:57,993 | Common.java | 107 | Report step generation success : Unable to login to application, Check Username and password
+ INFO | 2018-10-31 17:04:38,738 | Common.java | 99 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2018-10-31 17:04:38,744 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:04:38,758 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:04:38,765 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:04:38,769 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:04:39,102 | Common.java | 99 | Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-31 17:04:39,106 | Common.java | 115 | Report step generation success : Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-31 17:04:39,439 | Common.java | 99 | Entered value - wrongPassword1 in the text field- 
+ INFO | 2018-10-31 17:04:39,443 | Common.java | 115 | Report step generation success : Entered value - wrongPassword1 in the text field- 
+ INFO | 2018-10-31 17:04:39,447 | Common.java | 99 | Entered Password ->prakashshetty
+ INFO | 2018-10-31 17:04:39,451 | Common.java | 115 | Report step generation success : Entered Password ->prakashshetty
+ INFO | 2018-10-31 17:04:40,042 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-31 17:04:42,657 | Common.java | 99 | Clicked on WebElement-Login
+ INFO | 2018-10-31 17:04:42,661 | Common.java | 115 | Report step generation success : Clicked on WebElement-Login
+ERROR | 2018-10-31 17:05:22,730 | Common.java | 107 | Unable to login to application, Check Username and password
+ERROR | 2018-10-31 17:05:22,735 | Common.java | 107 | Report step generation success : Unable to login to application, Check Username and password
+ INFO | 2018-10-31 17:06:03,420 | Common.java | 99 | Getting value of ExecuteRemainingStepsOnFailure(Yes/No) from Test Configuration file : Yes
+ INFO | 2018-10-31 17:06:03,425 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:06:03,428 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:06:03,444 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:06:03,448 | Common.java | 99 | Getting value of OverideTimeoutOnFailure from Test Configuration file : 5
+ INFO | 2018-10-31 17:06:05,243 | Common.java | 99 | Getting value of ExecEnv from Test Configuration file : Server
+ INFO | 2018-10-31 17:06:05,248 | Common.java | 99 | Getting value of Host from Test Configuration file : 192.168.94.75
+ INFO | 2018-10-31 17:06:05,251 | Common.java | 99 | Getting value of Port from Test Configuration file : 5555
+ INFO | 2018-10-31 17:06:05,255 | Common.java | 99 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2018-10-31 17:06:05,262 | Common.java | 99 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2018-10-31 17:06:05,298 | Common.java | 99 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2018-10-31 17:06:05,302 | Common.java | 99 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2018-10-31 17:06:05,309 | Common.java | 99 | Element time out set
+ INFO | 2018-10-31 17:06:05,314 | Common.java | 99 | ##### Start of Test Case : Search a hotel #####
+ INFO | 2018-10-31 17:06:05,318 | Common.java | 99 | Test Case Name: TC_002
+ INFO | 2018-10-31 17:06:05,321 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-31 17:06:05,535 | Common.java | 99 | Test Data Set Name: TC_002
+ INFO | 2018-10-31 17:06:05,538 | Common.java | 99 | Execution Flag: Execute
+ INFO | 2018-10-31 17:06:05,543 | Common.java | 99 | Test Data Set Name: TC_002_01
+ INFO | 2018-10-31 17:06:05,547 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-31 17:06:05,549 | Common.java | 99 | Test Data Set Name: 
+ INFO | 2018-10-31 17:06:05,552 | Common.java | 99 | Execution Flag: 
+ INFO | 2018-10-31 17:06:05,565 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-31 17:06:05,571 | Common.java | 99 | Getting value of chromedriver from Test Configuration file : drivers/chromedriver.exe
+ INFO | 2018-10-31 17:06:08,029 | Common.java | 99 | Getting value of url from Test Configuration file : http://adactin.com/HotelApp/
+ INFO | 2018-10-31 17:06:10,252 | Common.java | 99 | Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-31 17:06:10,256 | Common.java | 115 | Report step generation success : Entered value - prakashshetty in the text field- Username
+ INFO | 2018-10-31 17:06:10,544 | Common.java | 99 | Entered value - Reset123 in the text field- 
+ INFO | 2018-10-31 17:06:10,547 | Common.java | 115 | Report step generation success : Entered value - Reset123 in the text field- 
+ INFO | 2018-10-31 17:06:10,552 | Common.java | 99 | Entered Password ->prakashshetty
+ INFO | 2018-10-31 17:06:10,554 | Common.java | 115 | Report step generation success : Entered Password ->prakashshetty
+ INFO | 2018-10-31 17:06:11,123 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-31 17:06:14,624 | Common.java | 99 | Clicked on WebElement-Login
+ INFO | 2018-10-31 17:06:14,632 | Common.java | 115 | Report step generation success : Clicked on WebElement-Login
+ INFO | 2018-10-31 17:06:14,928 | Common.java | 99 | selected value -Sydney from dropdown->Location
+ INFO | 2018-10-31 17:06:14,931 | Common.java | 115 | Report step generation success : selected value -Sydney from dropdown->Location
+ INFO | 2018-10-31 17:06:15,101 | Common.java | 99 | selected value -Hotel Sunshine from dropdown->Hotel
+ INFO | 2018-10-31 17:06:15,104 | Common.java | 115 | Report step generation success : selected value -Hotel Sunshine from dropdown->Hotel
+ INFO | 2018-10-31 17:06:15,269 | Common.java | 99 | selected value -Deluxe from dropdown->RoomType
+ INFO | 2018-10-31 17:06:15,272 | Common.java | 115 | Report step generation success : selected value -Deluxe from dropdown->RoomType
+ INFO | 2018-10-31 17:06:15,444 | Common.java | 99 | selected value -2 - Two from dropdown->NumRooms
+ INFO | 2018-10-31 17:06:15,448 | Common.java | 115 | Report step generation success : selected value -2 - Two from dropdown->NumRooms
+ INFO | 2018-10-31 17:06:15,747 | Common.java | 99 | Entered value - 8/27/2018 in the text field- 
+ INFO | 2018-10-31 17:06:15,752 | Common.java | 115 | Report step generation success : Entered value - 8/27/2018 in the text field- 
+ INFO | 2018-10-31 17:06:15,756 | Common.java | 99 | Selected Check In Date as ->8/27/2018
+ INFO | 2018-10-31 17:06:15,759 | Common.java | 115 | Report step generation success : Selected Check In Date as ->8/27/2018
+ INFO | 2018-10-31 17:06:16,018 | Common.java | 99 | Entered value - 8/27/2018 in the text field- 
+ INFO | 2018-10-31 17:06:16,022 | Common.java | 115 | Report step generation success : Entered value - 8/27/2018 in the text field- 
+ INFO | 2018-10-31 17:06:16,026 | Common.java | 99 | Selected Check Out Date as ->8/27/2018
+ INFO | 2018-10-31 17:06:16,029 | Common.java | 115 | Report step generation success : Selected Check Out Date as ->8/27/2018
+ INFO | 2018-10-31 17:06:16,201 | Common.java | 99 | selected value -4 - Four from dropdown->Adults
+ INFO | 2018-10-31 17:06:16,204 | Common.java | 115 | Report step generation success : selected value -4 - Four from dropdown->Adults
+ INFO | 2018-10-31 17:06:16,413 | Common.java | 99 | selected value -4 - Four from dropdown->Children
+ INFO | 2018-10-31 17:06:16,418 | Common.java | 115 | Report step generation success : selected value -4 - Four from dropdown->Children
+ INFO | 2018-10-31 17:06:19,153 | Common.java | 99 | Clicked on WebElement-Search
+ INFO | 2018-10-31 17:06:19,157 | Common.java | 115 | Report step generation success : Clicked on WebElement-Search
+ INFO | 2018-10-31 17:06:19,160 | Common.java | 99 | Clicked on Seach button
+ INFO | 2018-10-31 17:06:19,164 | Common.java | 115 | Report step generation success : Clicked on Seach button
+ INFO | 2018-10-31 17:06:19,659 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
+ INFO | 2018-10-31 17:06:20,948 | Common.java | 99 | Getting value of SendMail from Test Configuration file : 
+ INFO | 2018-10-31 17:06:20,952 | Common.java | 99 | Getting value of SendMail from Test Configuration file : 
+ INFO | 2018-10-31 17:06:20,961 | Common.java | 99 | Getting value of SendMsg(Yes/No) from Test Configuration file : No
+ INFO | 2018-10-31 17:06:20,968 | Common.java | 99 | ###################################
+ INFO | 2018-10-31 17:06:20,970 | Common.java | 99 | Script Execution Complete
+ INFO | 2018-10-31 17:06:20,976 | Common.java | 99 | ####################################

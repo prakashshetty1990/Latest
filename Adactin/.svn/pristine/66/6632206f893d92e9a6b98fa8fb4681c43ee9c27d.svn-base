@@ -1,0 +1,26 @@
+ INFO | 2018-10-15 15:57:30,245 | Common.java | 99 | Startup activites...
+ INFO | 2018-10-15 15:57:30,245 | Common.java | 99 | Test Output Directory creation successful :C:/NewWebWorkspace/SWAUT2/WebContent/TestResults\2018_10_15_03_57_30_PM
+ INFO | 2018-10-15 15:57:30,245 | Common.java | 99 | Log File creation successful : LogFile.log
+ INFO | 2018-10-15 15:57:30,558 | Common.java | 99 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2018-10-15 15:57:30,729 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-15 15:57:30,761 | Common.java | 99 | Getting value of Tc_Settings_Excelpath from Test Configuration file : ./src/test/resources/TestCaseSettings.xls
+ INFO | 2018-10-15 15:57:31,812 | Common.java | 99 | Getting value of ExecEnv from Test Configuration file : Cloud
+ INFO | 2018-10-15 15:57:31,812 | Common.java | 99 | Getting value of Host from Test Configuration file : prakashshetty1
+ INFO | 2018-10-15 15:57:31,812 | Common.java | 99 | Getting value of Port from Test Configuration file : PsXkVipzUbHwdBYky8ee
+ INFO | 2018-10-15 15:57:31,812 | Common.java | 99 | Getting value of ElementLoadWaitTime from Test Configuration file : 30
+ INFO | 2018-10-15 15:57:31,812 | Common.java | 99 | Getting value of TextLoadWaitTime from Test Configuration file : 10
+ INFO | 2018-10-15 15:57:31,844 | Common.java | 99 | Getting value of PageLoadWaitTime from Test Configuration file : 120
+ INFO | 2018-10-15 15:57:31,844 | Common.java | 99 | Getting value of ImplicitlyWaitTime from Test Configuration file : 30
+ INFO | 2018-10-15 15:57:31,844 | Common.java | 99 | Element time out set
+ INFO | 2018-10-15 15:57:31,844 | Common.java | 99 | ##### Start of Test Case : Login to Adactin Application #####
+ INFO | 2018-10-15 15:57:31,844 | Common.java | 99 | Test Case Name: TC_001
+ INFO | 2018-10-15 15:57:31,844 | Common.java | 99 | Getting value of TestDataFile from Test Configuration file : ./src/test/resources/TestData.xls
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Test Data Set Name: TC_001
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Execution Flag: Execute
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Test Data Set Name: TC_001_01
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Test Data Set Name: TC_001_02
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Execution Flag: YES
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Test Data Set Name: 
+ INFO | 2018-10-15 15:57:31,890 | Common.java | 99 | Execution Flag: 
+ INFO | 2018-10-15 15:57:31,922 | Common.java | 99 | Getting value of Browser from Test Configuration file : Chrome
