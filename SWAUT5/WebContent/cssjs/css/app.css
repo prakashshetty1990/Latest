@@ -1,0 +1,373 @@
+
+@import "bootstrap.min.css";
+
+html, body, .wrapper {
+	height: 100%;
+}
+body{
+	overflow:hidden;
+}
+
+.body-wrapper {
+	height: calc(100% - 75px);	
+	overflow-y:auto;
+	overflow-x:hidden;  
+}
+
+.fhlb-bg-light {
+	background-color: rgba(243, 244, 245, 0.57) !important;
+}
+.area-section{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.excel-link {
+	position: absolute;
+	right: 46px;
+	z-index: 9;
+}
+
+.td-none {
+	text-decoration: none !important;
+}
+
+.left-panel{
+	position: relative;
+	flex: 1 0 78px;
+	max-width:78px;	
+}
+
+.mein-menu{
+	position:fixed;	
+	z-index: 99;
+}
+.mein-menu li a {
+	padding: 1em;
+	display: block;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+.mein-menu li a:hover {
+	background-color: #0062cc;
+}
+
+.sub-menu {
+	position: absolute;
+	top: 0;
+	left: 75px;
+	background: #0054af !important;
+	color: #fff;
+	bottom: 0;
+	z-index: 9;
+	box-shadow: 5px 0 8px 2px rgba(0, 0, 0, .25);
+	min-width: 230px;
+	display: none;
+}
+
+.sub-menu header {
+	color: #ffffff;
+	font-size: 20px;
+	padding: 25px 20px;
+	margin-top: 4px;
+}
+
+.sub-menu-wrapper ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sub-menu-wrapper li a {
+	display: block;
+	padding: 15px 20px;
+	color: #ffffff;
+	font-size: 13px;
+	text-shadow: 0 0 1px rgba(255, 255, 255, .6);
+	position: relative;
+	cursor: pointer;
+}
+
+.left-panel .sub-menu a.active {
+	background-color: #053887;
+}
+/* .header-container{
+	position: fixed;
+	left: 0;
+    right: 0;
+	z-index: 9;
+	background-color: #fff;
+}/*
+.main-area {
+	z-index: 1;
+    overflow: auto; 
+    padding-top: 75px;
+    margin-top: 75px;
+    position: relative;
+}
+*/
+#demo {
+	margin-left: 35px;
+}
+
+.content-area{
+	margin-top: 15px;
+	margin-left: 102px;
+	position:relative;
+	overflow: auto;
+	overflow-x:hidden; 
+}
+.data-form-wrapper {
+	overflow-x: auto; 
+}
+.data-form-wrapper .btn-link{
+	color: #007bff!important;
+	text-transform:uppercase;
+	font-size: 12px;
+	font-weight: bold!important;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.active a {
+	background-color: #0062cc !important;
+}
+
+.loader {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 888;
+	background-color: rgba(0, 0, 0, .60);
+	display: none;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+.show-loader {
+	display: flex !important;
+}
+.tablewidth{
+   table-layout: auto;
+   width: 400px; 
+      
+ }
+.thfont{
+	text-transform: capitalize;	
+}
+
+.labelStyle{
+	font-family: Segoe UI;
+	font-size:18px; 
+	display: block;
+	line-height: 1.8;
+	position: relative; 
+	left: 3px; 
+	margin: auto;		
+}
+
+.labelfont{
+	font-family: monospace; 
+	font-size: 14px; 
+	margin-left: -40px;	
+}
+.displayNone{
+	display: none !important;
+}
+
+.innerTableData th,
+.innerTableData td{
+	min-width: 197px;
+	align-content: center;
+}
+.innerTableData tr td:last-child{
+	text-align: center;
+}
+.btn-Save {
+	width: 70px;
+}
+
+#dvLoader {
+		display: block;
+		position: fixed;
+		z-index: 100;
+		background-color: rgba(0,0,0,0.5);
+		background-repeat : no-repeat;
+    	background-position : center center;
+    	left : 0;
+    	bottom : 0;
+    	right : 0;
+    	top : 0;
+}
+
+.wordbrkall{
+    white-space: nowrap;
+    
+}
+
+.db-card{
+	width:300px;
+}
+
+/*ScrollBar of table Content*/
+
+@-moz-document url-prefix(http://),url-prefix(https://) {
+scrollbar {
+   -moz-appearance: none !important;
+   background: rgb(0,255,0) !important;
+}
+thumb,scrollbarbutton {
+   -moz-appearance: none !important;
+   background-color: rgb(0,0,255) !important;
+}
+
+thumb:hover,scrollbarbutton:hover {
+   -moz-appearance: none !important;
+   background-color: rgb(255,0,0) !important;
+}
+
+scrollbarbutton {
+   display: none !important;
+}
+
+scrollbar[orient="vertical"] {
+  min-width: 15px !important;
+}
+}
+/**/
+.scrollbar-container {
+    position: relative;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: 20px;
+    overflow: auto;
+    
+}
+.scrollbar-container .inner {
+    height: 300px;
+    width: 600px;
+    padding: 1em;
+    background-color: white;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: solid whiteSmoke 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.login-container {
+  background-color: #ffffff;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, .15);
+  border-radius: 4px;
+}
+
+.login-container figure {
+  border-bottom: 1px solid #eee;
+  padding: 1em;
+}
+
+.login-container .login-form-wrapper {
+  padding: 1em;
+}
+
+.login-container .login-form-wrapper .form-control-wrapper {
+  margin: 1em 0;
+}
+
+.login-container .login-form-wrapper label {
+  width: 90px;
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Raleway-SemiBold', sans-serif;
+  color: #747577;
+}
+
+.login-container .login-form-wrapper input {
+  width: 250px;
+  padding: .5em;
+  border: 1px solid #e7ecef;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.login-container .login-form-wrapper .btn-login {
+  border: 0;
+  background-color: #0e59a5;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-radius: 4px;
+  display: inline-block;
+  width: 120px;
+  font-family: 'Raleway-SemiBold', sans-serif;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+.card-header{
+	background-color : #0e59a5;
+	color: #ffffff;
+	padding-left: 0;
+}
+.card-header button,
+.card-header button:hover{
+	color: #ffffff;
+}
+.accordion-content .fa{
+	font-size: 10px;
+	-webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+
+	margin-right: 10px;
+	margin-top: 2px;	
+}
+.accordion-content span{
+	line-height: 16px;
+}
+
+h1 {
+    color: maroon;
+   	font-family: Segoe UI;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15%;
+}
+h4{
+	line-height: 2.2;
+}
+
+.handhover{
+ cursor: pointer;
+}
+
+/* FHLB contact us form  */
+.fhlb-contact-form .form-control{
+	border-radius: 20px;
+}
+
+.input-file{
+	display:none;
+}
+
+.ml-80{
+	margin-left: 80px;
+}
+
+.alignmiddle{
+	text-align: center;
+}
